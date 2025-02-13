@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>simple html page</title>
+<script>
+        function changeText() {
+            document.getElementById("myParagraph").innerText = "The text has been changed!";
+        }
+    </script>
+</head>
+<body>
+    <p id="myParagraph">This is the original text.</p>
+    <button onclick="changeText()">Click to change text</button>
+</body>
+</html>
