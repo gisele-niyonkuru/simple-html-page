@@ -1,14 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>simple html page</title>
-<script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Text Example</title>
+    <script>
         function changeText() {
-            document.getElementById("myParagraph").innerText = "The text has been changed!";
+            document.getElementById("myParagraph").innerText = "welcome!";
         }
     </script>
 </head>
 <body>
-    <p id="myParagraph">This is the original text.</p>
+    <p id="myParagraph">thank you!.</p>
     <button onclick="changeText()">Click to change text</button>
 </body>
 </html>
